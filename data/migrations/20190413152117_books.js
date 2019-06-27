@@ -16,6 +16,7 @@ exports.up = function(knex, Promise) {
     .createTable("restaurants", table => {
       table.increments();
       table.timestamps(true, true);
+      table.integer("rating");
       table.string("name", 40).notNullable();
       table.string("location", 40).notNullable();
       table.string("description", 600);
@@ -25,6 +26,7 @@ exports.up = function(knex, Promise) {
       table.increments();
       table.timestamps(true, true);
       table.string("name", 40).notNullable();
+      table.integer("rating");
       table
         .string("email", 30)
         .notNullable()

@@ -6,7 +6,8 @@ const fakeServers = require("../dummyData/fakeServers")["servers"];
 //   name: `${faker.name.firstName()} ${faker.name.lastName()}`,
 //   email: faker.internet.email(),
 //   password: faker.internet.password(),
-//   restaurant_id: Math.ceil(Math.random() * 30)
+//   restaurant_id: Math.ceil(Math.random() * 30),
+//   rating: Math.ceil(Math.random() * 5)
 // }); //used this to create fake servers file in dummyData
 
 exports.seed = function(knex, Promise) {

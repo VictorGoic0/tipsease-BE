@@ -22,6 +22,7 @@ async function findById(id) {
       id: "servers.id",
       name: "servers.name",
       email: "servers.email",
+      rating: "servers.rating",
       thumbnail_url: "servers.thumbnail_url"
     })
     .where({ "servers.restaurant_id": id });
