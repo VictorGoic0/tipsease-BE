@@ -15,9 +15,26 @@ async function find() {
 }
 
 async function findById(id) {
-  const user = await db("users")
-    .where({ id })
+  let user = db("users")
+    .where({ email })
     .first();
+  let transactionList = db("transactions")
+    .select({
+      id: "transactions.id",
+      tipper_id: "transactions.tipper_id",
+      server_id: "transactions.server_id",
+      tip_paid: "transactions.tip_paid",
+      created_at: "transactions.created_at"
+    })
+    .where({ "transactions.tipper_id": id });
+  const retrieval = await Promise.all([user, transactionList]);
+  if (retrieval[0]) {
+    /* This is only true if both the promise resolved AND the post exists. Checking for just the promise causes
+    nonexistent posts to return an empty object and array due to my return statement returning an object by default */
+    let content = retrieval[0];
+    let transactions = retrieval[1];
+    return { ...content, transactions };
+  }
   return user;
 }
 
