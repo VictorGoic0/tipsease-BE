@@ -31,7 +31,7 @@ async function findById(id) {
   if (retrieval[0]) {
     /* This is only true if both the promise resolved AND the post exists. Checking for just the promise causes
     nonexistent posts to return an empty object and array due to my return statement returning an object by default */
-    let content = retrieval;
+    let content = retrieval[0];
     let servers = retrieval[1];
     return { ...content, servers };
   }

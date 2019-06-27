@@ -1,6 +1,17 @@
 const router = require("express").Router();
 const db = require("../data/helpers/users-model.js");
 
+router.get("/", async (req, res) => {
+  try {
+    const users = await db.find();
+    if (users) {
+      res.status(200).json(users);
+    }
+  } catch (error) {
+    res.status(500).json({ message: `Users could not be found ${error}.` });
+  }
+});
+
 router.get("/:id", async (req, res) => {
   const { id } = req.params;
   try {

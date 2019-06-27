@@ -2,6 +2,17 @@ const router = require("express").Router();
 
 const db = require("../data/helpers/servers-model.js");
 
+router.get("/", async (req, res) => {
+  try {
+    const servers = await db.find();
+    if (servers) {
+      res.status(200).json(servers);
+    }
+  } catch (error) {
+    res.status(500).json({ message: `Servers could not be found ${error}.` });
+  }
+});
+
 router.get("/:id", async (req, res) => {
   const { id } = req.params;
   try {
