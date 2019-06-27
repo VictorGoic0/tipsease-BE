@@ -1,6 +1,6 @@
 const fs = require("fs");
 const faker = require("faker");
-const fakeReviews = require("../dummyData/fakeReviews")["reviews"];
+// const fakeReviews = require("../dummyData/fakeReviews")["reviews"];
 
 // const createFakeReview = () => ({
 //   review: faker.lorem.paragraph()
@@ -22,5 +22,5 @@ exports.seed = function(knex, Promise) {
   //   JSON.stringify({ reviews: fakeReviews })
   // ); used this to create fake reviews array
 
-  return knex("reviews").insert(fakeReviews);
+  return knex("servers").insert([{}]);
 };

@@ -1,6 +1,6 @@
 const fs = require("fs");
 const faker = require("faker");
-const fakeBooks = require("../dummyData/fakeBooks")["books"];
+// const fakeBooks = require("../dummyData/fakeBooks")["books"];
 
 // const createFakeBook = () => ({
 //   author: faker.name.findName(),
@@ -25,5 +25,5 @@ exports.seed = function(knex, Promise) {
   //   JSON.stringify({ books: fakeBooks })
   // ); used this to create fake books array
 
-  return knex("books").insert(fakeBooks);
+  return knex("restaurants").insert([{}]);
 };
