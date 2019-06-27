@@ -31,19 +31,19 @@ router.post("/register", async (req, res) => {
 });
 
 router.post("/login", async (req, res) => {
-  const { username, password } = req.body;
-  if (!username || !password) {
+  const { email, password } = req.body;
+  if (!email || !password) {
     res.status(401).json({ message: "Please enter valid credentials." });
   } else {
     try {
-      const user = await db.findByUser(username);
+      const user = await db.findByUser(email);
       if (user && bcrypt.compareSync(password, user.password)) {
-        const token = generateToken(user.id, username);
+        const token = generateToken(user.id, email);
         res
           .status(201)
-          .json({ message: `Welcome ${username}!`, token, userID: user.id });
+          .json({ message: `Welcome ${email}!`, token, userID: user.id });
       } else {
-        res.status(401).json({ message: "Username or password is incorrect." });
+        res.status(401).json({ message: "Email or password is incorrect." });
       }
     } catch (error) {
       res.status(500).json({ message: `Login failed ${error}.` });
@@ -51,10 +51,10 @@ router.post("/login", async (req, res) => {
   }
 });
 
-function generateToken(id, username) {
+function generateToken(id, email) {
   const payload = {
     id,
-    username
+    email
   };
   const options = {
     expiresIn: "7d"
