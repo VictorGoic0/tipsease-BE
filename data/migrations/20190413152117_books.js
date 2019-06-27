@@ -58,7 +58,6 @@ exports.up = function(knex, Promise) {
         .notNullable()
         .onDelete("CASCADE")
         .onUpdate("CASCADE");
-      table.integer("rating").notNullable();
       table
         .float("tip_paid")
         .unsigned()
