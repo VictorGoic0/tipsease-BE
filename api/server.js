@@ -1,7 +1,7 @@
 const express = require("express");
 const helmet = require("helmet");
 const cors = require("cors");
-// const booksRouter = require("../routers/booksRouter.js");
+const restaurantsRouter = require("../routers/restaurantsRouter.js");
 // const reviewsRouter = require("../routers/reviewsRouter.js");
 const authRouter = require("../routers/authRouter.js");
 const usersRouter = require("../routers/usersRouter.js");
@@ -13,9 +13,9 @@ server.use(helmet());
 server.use(cors());
 server.use(express.json());
 
-// server.use("/api/books", authorization, booksRouter);
-// server.use("/api/reviews", authorization, reviewsRouter);
 server.use("/api/auth", authRouter);
 server.use("/api/users", authorization, usersRouter);
+server.use("/api/restaurants", authorization, restaurantsRouter);
+// server.use("/api/reviews", authorization, reviewsRouter);
 
 module.exports = server;
