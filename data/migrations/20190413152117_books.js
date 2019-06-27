@@ -28,9 +28,9 @@ exports.up = function(knex, Promise) {
       table.string("name", 40).notNullable();
       table.integer("rating");
       table.string("job_title", 100).notNullable();
-      table.string("time_worked", 30).notNullable();
+      table.string("time_worked", 40).notNullable();
       table
-        .string("email", 30)
+        .string("email", 80)
         .notNullable()
         .unique();
       table.string("password", 100).notNullable();
