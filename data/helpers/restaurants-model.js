@@ -20,8 +20,8 @@ async function findById(id) {
   let serverList = db("servers")
     .select({
       id: "servers.id",
-      name: "reviews.review",
-      email: "reviews.rating",
+      name: "servers.name",
+      email: "servers.email",
       thumbnail_url: "users.thumbnail_url"
     })
     .where({ "servers.restaurant_id": id });

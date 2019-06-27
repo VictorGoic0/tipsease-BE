@@ -26,7 +26,7 @@ async function findById(id) {
       server_id: "transactions.server_id",
       tip_paid: "transactions.tip_paid"
     })
-    .where({ "servers.restaurant_id": id });
+    .where({ "transactions.server_id": id });
   const retrieval = await Promise.all([server, transactionList]);
   if (retrieval[0][0]) {
     /* This is only true if both the promise resolved AND the post exists. Checking for just the promise causes
