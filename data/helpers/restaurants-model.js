@@ -22,7 +22,7 @@ async function findById(id) {
       id: "servers.id",
       name: "servers.name",
       email: "servers.email",
-      thumbnail_url: "users.thumbnail_url"
+      thumbnail_url: "servers.thumbnail_url"
     })
     .where({ "servers.restaurant_id": id });
   const retrieval = await Promise.all([restaurant, serverList]);
