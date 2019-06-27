@@ -21,9 +21,9 @@ async function findById(id) {
   return user;
 }
 
-async function findByUser(username) {
+async function findByUser(email) {
   const user = await db("users")
-    .where({ username })
+    .where({ email })
     .first();
   return user;
 }
