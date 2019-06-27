@@ -9,74 +9,60 @@ module.exports = {
 };
 
 async function find() {
-  const books = await db.raw(
-    `select books.id as id, books.user_id as user_id, books.title as title, books.author as author, books.price as price, books.publisher as publisher, books.image_url as "imageUrl", books.description as description, (select avg(reviews.rating) from reviews where reviews.book_id = books.id) as rating from books left join reviews on reviews.book_id = books.id group by books.id order by books.id`
-  );
-  if (process.env.DB_ENVIRONMENT === "production") {
-    return books.rows;
-  }
-  return books;
+  const restaurants = await db("restaurants");
+  return restaurants;
 }
 
 async function findById(id) {
-  let bookContent = db.raw(
-    `select books.id as id, books.user_id as user_id, users.first_name as "firstName", users.last_name as "lastName", users.username as username, users.thumbnail_url as "thumbnailUrl", books.title as title, books.author as author, books.price as price, books.publisher as publisher, books.image_url as "imageUrl", books.description as description, (select avg(reviews.rating) from reviews where reviews.book_id = ${id}) as rating from books left join reviews on reviews.book_id = books.id join users on books.user_id = users.id where books.id = ${id}`
-  );
-  let bookReviews = db("reviews")
+  let restaurant = db("restauraunts")
+    .where({ id })
+    .first();
+  let serverList = db("reviews")
     .select({
-      id: "reviews.id",
-      review: "reviews.review",
-      rating: "reviews.rating",
-      username: "users.username",
-      thumbnailUrl: "users.thumbnail_url"
+      id: "servers.id",
+      name: "reviews.review",
+      email: "reviews.rating",
+      thumbnail_url: "users.thumbnail_url"
     })
-    .innerJoin("users", "reviews.user_id", "users.id")
-    .where({ "reviews.book_id": id });
-  const retrieval = await Promise.all([bookContent, bookReviews]);
-  if (process.env.DB_ENVIRONMENT === "production") {
-    if (retrieval[0].rows[0]) {
-      let [content] = retrieval[0].rows;
-      let reviews = retrieval[1];
-      return { ...content, reviews };
-    }
-  }
+    .where({ "servers.restaurant_id": id });
+  const retrieval = await Promise.all([restaurant, serverList]);
   if (retrieval[0][0]) {
     /* This is only true if both the promise resolved AND the post exists. Checking for just the promise causes
     nonexistent posts to return an empty object and array due to my return statement returning an object by default */
     let [content] = retrieval[0];
-    let reviews = retrieval[1];
-    return { ...content, reviews };
+    let servers = retrieval[1];
+    return { ...content, servers };
   }
 }
 
 async function create(item) {
-  const [id] = await db("books")
+  const [id] = await db("restaurants")
     .insert(item)
     .returning("id");
   if (id) {
-    const book = await findById(id);
-    return book;
+    const restaurant = await findById(id);
+    return restaurant;
   }
 }
 
 async function remove(id) {
-  const book = await findById(id);
-  if (book) {
-    const deleted = await db("books")
+  const restaurant = await findById(id);
+  if (restaurant) {
+    const deleted = await db("restaurants")
       .where({ id })
       .del();
     if (deleted) {
-      return book;
+      return restaurant;
     }
   }
 }
 
 async function update(item, id) {
-  const editedBook = await db("books")
+  const editedRestaurant = await db("restaurants")
     .where({ id })
     .update(item);
-  if (editedBook) {
-    const book = await findById(id);
-    return book;
+  if (editedRestaurant) {
+    const restaurant = await findById(id);
+    return restaurant;
   }
 }
