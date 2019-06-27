@@ -24,7 +24,8 @@ async function findById(id) {
       id: "transactions.id",
       tipper_id: "transactions.tipper_id",
       server_id: "transactions.server_id",
-      tip_paid: "transactions.tip_paid"
+      tip_paid: "transactions.tip_paid",
+      created_at: "transactions.created_at"
     })
     .where({ "transactions.server_id": id });
   const retrieval = await Promise.all([server, transactionList]);
