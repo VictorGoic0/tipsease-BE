@@ -2,8 +2,7 @@ exports.up = function(knex, Promise) {
   return knex.schema
     .createTable("users", table => {
       table.increments();
-      table.string("first_name", 30).notNullable();
-      table.string("last_name", 40).notNullable();
+      table.string("name", 40).notNullable();
       table
         .string("username", 30)
         .notNullable()
@@ -13,46 +12,61 @@ exports.up = function(knex, Promise) {
         .string("thumbnail_url", 256)
         .defaultTo("https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg");
     })
-    .createTable("books", table => {
+    .createTable("restaurants", table => {
       table.increments();
-      table
-        .integer("user_id")
-        .unsigned()
-        .references("users.id")
-        .notNullable()
-        .onDelete("CASCADE")
-        .onUpdate("CASCADE");
-      table.string("author", 40).notNullable();
-      table.string("title", 40).notNullable();
-      table.float("price").notNullable();
-      table.string("publisher", 40).notNullable();
+      table.string("name", 40).notNullable();
+      table.string("location", 40).notNullable();
       table.string("description", 600);
       table.string("image_url", 256);
     })
-    .createTable("reviews", table => {
+    .createTable("servers", table => {
       table.increments();
-      table.string("review", 600).notNullable();
-      table.integer("rating").notNullable();
+      table.string("name", 40).notNullable();
       table
-        .integer("book_id")
+        .string("username", 30)
+        .notNullable()
+        .unique();
+      table.string("password", 100).notNullable();
+      table
+        .string("thumbnail_url", 256)
+        .defaultTo("https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg");
+      table
+        .integer("restaurant_id")
         .unsigned()
-        .references("books.id")
+        .references("restaurants.id")
         .notNullable()
         .onDelete("CASCADE")
         .onUpdate("CASCADE");
+    })
+    .createTable("transactions", table => {
+      table.increments();
       table
-        .integer("user_id")
+        .integer("tipper_id")
         .unsigned()
         .references("users.id")
         .notNullable()
         .onDelete("CASCADE")
         .onUpdate("CASCADE");
+      table
+        .integer("server_id")
+        .unsigned()
+        .references("servers.id")
+        .notNullable()
+        .onDelete("CASCADE")
+        .onUpdate("CASCADE");
+      table.string("timestamp", Date.now()).notNullable();
+      table.integer("rating").notNullable();
+      table
+        .float("tip_paid")
+        .unsigned()
+        .notNullable();
     });
 };
 
 exports.down = function(knex, Promise) {
   return knex.schema
-    .dropTableIfExists("reviews")
-    .dropTableIfExists("books")
+    .dropTableIfExists("transactions")
+    .dropTableIfExists("servers")
+    .dropTableIfExists("restaurants")
     .dropTableIfExists("users");
 };
