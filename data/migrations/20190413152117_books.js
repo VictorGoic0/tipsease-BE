@@ -27,7 +27,7 @@ exports.up = function(knex, Promise) {
       table.timestamps(true, true);
       table.string("name", 40).notNullable();
       table.integer("rating");
-      table.string("job_title", 40).notNullable();
+      table.string("job_title", 100).notNullable();
       table.string("time_worked", 30).notNullable();
       table
         .string("email", 30)
