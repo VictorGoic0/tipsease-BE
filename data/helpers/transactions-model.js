@@ -9,63 +9,45 @@ module.exports = {
 };
 
 async function find(id) {
-  const reviews = await db("reviews")
-    .select({
-      id: "reviews.id",
-      review: "reviews.review",
-      rating: "reviews.rating",
-      username: "users.username",
-      thumbnailUrl: "users.thumbnail_url"
-    })
-    .innerJoin("users", "reviews.user_id", "users.id")
-    .orderBy("id", "asc")
-    .where({ book_id: id });
-  return reviews;
+  const transactions = await db("transactions");
+  return transactions;
 }
 
 async function findById(id) {
-  const review = await db("reviews")
-    .select({
-      id: "reviews.id",
-      review: "reviews.review",
-      rating: "reviews.rating",
-      username: "users.username",
-      thumbnailUrl: "users.thumbnail_url"
-    })
-    .innerJoin("users", "reviews.user_id", "users.id")
-    .where({ "reviews.id": id })
+  const transaction = await db("transactions")
+    .where({ id })
     .first();
-  return review;
+  return transaction;
 }
 
 async function create(item) {
-  const [id] = await db("reviews")
+  const [id] = await db("transactions")
     .insert(item)
     .returning("id");
   if (id) {
-    const review = await findById(id);
-    return review;
+    const transaction = await findById(id);
+    return transaction;
   }
 }
 
 async function remove(id) {
-  const review = await findById(id);
-  if (review) {
-    const deleted = await db("reviews")
+  const transaction = await findById(id);
+  if (transaction) {
+    const deleted = await db("transactions")
       .where({ id })
       .del();
     if (deleted) {
-      return review;
+      return transaction;
     }
   }
 }
 
 async function update(item, id) {
-  const editedReview = await db("reviews")
+  const editedTransaction = await db("transactions")
     .where({ id })
     .update(item);
-  if (editedReview) {
-    const review = await findById(id);
-    return review;
+  if (editedTransaction) {
+    const transaction = await findById(id);
+    return transaction;
   }
 }
