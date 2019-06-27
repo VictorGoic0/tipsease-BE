@@ -1,29 +1,26 @@
 const fs = require("fs");
 const faker = require("faker");
-// const fakeBooks = require("../dummyData/fakeBooks")["books"];
+// const fakeRestaurants = require("../dummyData/fakeRestauraunts")["restaurants"];
 
-// const createFakeBook = () => ({
-//   author: faker.name.findName(),
-//   title: faker.commerce.productName(),
-//   price: faker.commerce.price(),
-//   publisher: faker.company.companyName(),
-//   description: faker.lorem.paragraph(),
-//   imageurl: faker.image.imageUrl()
-// });  used this to create fake books file in dummyData
+const createFakeRestaurant = () => ({
+  location: "New York, New York",
+  name: faker.company.companyName(),
+  description: faker.lorem.paragraph(),
+  image_url: faker.image.imageUrl()
+}); //used this to create fake restaurants file in dummyData
 
 exports.seed = function(knex, Promise) {
-  // const fakeBooks = [];
+  const fakeRestaurants = [];
 
-  // for (let i = 1; i <= 30; i++) {
-  //   const fakeBook = createFakeBook();
-  //   fakeBook.user_id = i;
-  //   fakeBooks.push(fakeBook);
-  // }
+  for (let i = 1; i <= 30; i++) {
+    const fakeRestaurant = createFakeRestaurant();
+    fakeRestaurants.push(fakeRestaurant);
+  }
 
-  // fs.writeFileSync(
-  //   "./data/dummyData/fakeBooks.json",
-  //   JSON.stringify({ books: fakeBooks })
-  // ); used this to create fake books array
+  fs.writeFileSync(
+    "./data/dummyData/fakeRestauraunts.json",
+    JSON.stringify({ restaurants: fakeRestaurants })
+  ); //used this to create fake restauraunts array
 
-  return knex("restaurants").insert([{}]);
+  return knex("restaurants").insert(fakeRestaurants);
 };
