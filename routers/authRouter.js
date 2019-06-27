@@ -5,22 +5,22 @@ const db = require("../data/helpers/users-model.js");
 const secret = process.env.SECRET || "It's a secret";
 
 router.post("/register", async (req, res) => {
-  let { username, password, name } = req.body;
-  if (!username || !password || !name) {
+  let { email, password, name } = req.body;
+  if (!email || !password || !name) {
     res.status(401).json({ message: "Please enter valid credentials." });
   } else {
     password = bcrypt.hashSync(password, 8);
     try {
       const newUser = await db.create({
-        username,
+        email,
         password,
         name
       });
       if (newUser) {
-        const token = generateToken(newUser.id, username);
+        const token = generateToken(newUser.id, email);
         res
           .status(201)
-          .json({ message: `Welcome ${username}!`, token, userID: newUser.id });
+          .json({ message: `Welcome ${email}!`, token, userID: newUser.id });
       }
     } catch (error) {
       res
