@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 const db = require("../data/helpers/restaurants-model.js");
-// const servers = require("../data/helpers/servers-model.js");
+const Servers = require("../data/helpers/servers-model.js");
 
 router.get("/", async (req, res) => {
   try {
@@ -89,16 +89,16 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-// router.get("/:id/servers", async (req, res) => {
-//   const { id } = req.params;
-//   try {
-//     const servers = await Servers.find(id);
-//     if (servers) {
-//       res.status(200).json(servers);
-//     }
-//   } catch (error) {
-//     res.status(500).json({ message: `Servers could not be found ${error}.` });
-//   }
-// });
+router.get("/:id/servers", async (req, res) => {
+  const { id } = req.params;
+  try {
+    const servers = await Servers.findByRest(id);
+    if (servers) {
+      res.status(200).json(servers);
+    }
+  } catch (error) {
+    res.status(500).json({ message: `Servers could not be found ${error}.` });
+  }
+});
 
 module.exports = router;
