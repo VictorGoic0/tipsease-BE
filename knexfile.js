@@ -1,6 +1,6 @@
 const localPgConnection = {
   host: "localhost",
-  database: "instagram",
+  database: "tipsease",
   user: "victor",
   password: "pass"
 };
@@ -11,7 +11,7 @@ module.exports = {
   development: {
     client: "sqlite3",
     connection: {
-      filename: "./data/bookr.sqlite3"
+      filename: "./data/tipsease.sqlite3"
     },
     useNullAsDefault: true,
     migrations: {

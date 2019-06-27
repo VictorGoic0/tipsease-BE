@@ -1,634 +1,814 @@
 {
   "servers": [
     {
-      "name": "Schuyler Wuckert",
-      "email": "Aliza_Okuneva78@yahoo.com",
-      "password": "ze0JW2y7mCue0fD",
-      "restaurant_id": 11,
-      "rating": 1
-    },
-    {
-      "name": "Myles Ryan",
-      "email": "Mireille_Moore85@yahoo.com",
-      "password": "2WLg5T16vOCa_Xd",
-      "restaurant_id": 23,
-      "rating": 5
-    },
-    {
-      "name": "Abelardo Doyle",
-      "email": "Liliana91@hotmail.com",
-      "password": "UpDGICxTf1qqDhG",
-      "restaurant_id": 3,
-      "rating": 2
-    },
-    {
-      "name": "Lori Mills",
-      "email": "Katarina_Schimmel42@yahoo.com",
-      "password": "kM1jGq0kS4sWTSD",
-      "restaurant_id": 26,
-      "rating": 3
-    },
-    {
-      "name": "Braxton Bahringer",
-      "email": "Chelsey.Bradtke2@hotmail.com",
-      "password": "xmWTjcbwTNtwX2x",
-      "restaurant_id": 14,
-      "rating": 2
-    },
-    {
-      "name": "Marilou Klein",
-      "email": "Christina.Borer65@yahoo.com",
-      "password": "MuwELOSlOmBQfyT",
-      "restaurant_id": 22,
-      "rating": 4
-    },
-    {
-      "name": "Lenna Corkery",
-      "email": "Evans_Kling24@yahoo.com",
-      "password": "1aReO7MABIevN4l",
-      "restaurant_id": 22,
-      "rating": 2
-    },
-    {
-      "name": "Bennie Reichert",
-      "email": "Efrain.Walter51@yahoo.com",
-      "password": "o5LWcryxtWd_SV7",
-      "restaurant_id": 2,
-      "rating": 2
-    },
-    {
-      "name": "Trisha Tromp",
-      "email": "Breanne82@yahoo.com",
-      "password": "vrFh2CFCn7XVpOP",
-      "restaurant_id": 29,
-      "rating": 1
-    },
-    {
-      "name": "Dale McKenzie",
-      "email": "Aaron28@yahoo.com",
-      "password": "xQf1oRiWLGJYEEm",
-      "restaurant_id": 10,
-      "rating": 2
-    },
-    {
-      "name": "Narciso Crona",
-      "email": "Tod.Altenwerth@hotmail.com",
-      "password": "iM4yrtB_OqDZ4RM",
-      "restaurant_id": 20,
-      "rating": 1
-    },
-    {
-      "name": "Sherman Ferry",
-      "email": "Gennaro.Nikolaus94@hotmail.com",
-      "password": "zhgEsOXYXN_4C6c",
-      "restaurant_id": 28,
-      "rating": 3
-    },
-    {
-      "name": "Janiya Kassulke",
-      "email": "Shanny.Moen80@yahoo.com",
-      "password": "yGulOv6fnMxCnZY",
-      "restaurant_id": 20,
-      "rating": 1
-    },
-    {
-      "name": "Asha Feeney",
-      "email": "Antonia.Carroll8@yahoo.com",
-      "password": "C3FSlt3rF2lopVX",
-      "restaurant_id": 7,
-      "rating": 4
-    },
-    {
-      "name": "Jakayla Kiehn",
-      "email": "Floyd_Goodwin32@yahoo.com",
-      "password": "f98MOPdJ8bsTaXV",
-      "restaurant_id": 20,
-      "rating": 4
-    },
-    {
-      "name": "Jaden Paucek",
-      "email": "Etha_Cremin@gmail.com",
-      "password": "ymFKls4boN3vWmk",
-      "restaurant_id": 26,
-      "rating": 4
-    },
-    {
-      "name": "Darlene Denesik",
-      "email": "Myron.Ortiz@hotmail.com",
-      "password": "ogAswkYDjfCd2A4",
-      "restaurant_id": 28,
-      "rating": 5
-    },
-    {
-      "name": "Beth Weimann",
-      "email": "Domingo_Paucek@gmail.com",
-      "password": "m6EnmXUx5kt7IFb",
-      "restaurant_id": 8,
-      "rating": 4
-    },
-    {
-      "name": "Saige Howe",
-      "email": "Judson.Mayer@yahoo.com",
-      "password": "Hf11LScWMQW5ZyS",
+      "name": "Lupe Strosin",
+      "email": "Kelsi5@yahoo.com",
+      "password": "pSc0hp7fdaEYZo7",
       "restaurant_id": 24,
-      "rating": 5
-    },
-    {
-      "name": "Darrin Hoppe",
-      "email": "Joanne.Kirlin44@yahoo.com",
-      "password": "klmnDQVv8voC67_",
-      "restaurant_id": 21,
-      "rating": 2
-    },
-    {
-      "name": "Paige Jones",
-      "email": "Raven43@yahoo.com",
-      "password": "7VuGoAk0P7cgh9X",
-      "restaurant_id": 11,
-      "rating": 5
-    },
-    {
-      "name": "Amely Bednar",
-      "email": "Darlene4@hotmail.com",
-      "password": "xsYJObEZp5t7y43",
-      "restaurant_id": 22,
-      "rating": 3
-    },
-    {
-      "name": "Anita Keebler",
-      "email": "Seth86@yahoo.com",
-      "password": "sy0b4PbQ2Zqam43",
-      "restaurant_id": 17,
-      "rating": 5
-    },
-    {
-      "name": "Irwin Fay",
-      "email": "Albin11@hotmail.com",
-      "password": "pddGo9cxtJt1sNh",
-      "restaurant_id": 5,
-      "rating": 5
-    },
-    {
-      "name": "Sandrine Jenkins",
-      "email": "Elyse99@hotmail.com",
-      "password": "AgqmnnnFBdmMPgU",
-      "restaurant_id": 13,
-      "rating": 2
-    },
-    {
-      "name": "Carroll Nienow",
-      "email": "Devan_Christiansen65@gmail.com",
-      "password": "prthber1AHfEeE_",
-      "restaurant_id": 18,
-      "rating": 2
-    },
-    {
-      "name": "Braxton Schinner",
-      "email": "Pat90@yahoo.com",
-      "password": "G28Uu8xQcAUI6gx",
-      "restaurant_id": 24,
-      "rating": 2
-    },
-    {
-      "name": "Lottie Watsica",
-      "email": "Maggie.Pouros@yahoo.com",
-      "password": "yx4G2v_hWiCch7r",
-      "restaurant_id": 3,
-      "rating": 1
-    },
-    {
-      "name": "Lottie Metz",
-      "email": "Rosalee.Pfeffer52@gmail.com",
-      "password": "JR4GrOHjLrG37_C",
-      "restaurant_id": 10,
-      "rating": 2
-    },
-    {
-      "name": "Kiarra Fay",
-      "email": "Rosetta.Grimes77@hotmail.com",
-      "password": "c59VE2Bd9ELT2n1",
-      "restaurant_id": 25,
+      "job_title": "Corporate Marketing Executive",
+      "time_worked": "1 year",
       "rating": 4
     },
     {
-      "name": "Ramiro Hauck",
-      "email": "Hermann28@gmail.com",
-      "password": "FJlA1xdrSISVHRD",
-      "restaurant_id": 22,
-      "rating": 2
-    },
-    {
-      "name": "Leilani Larson",
-      "email": "Sheldon_McGlynn50@gmail.com",
-      "password": "pQvIreOum6hWJhH",
-      "restaurant_id": 29,
-      "rating": 1
-    },
-    {
-      "name": "Bianka Gusikowski",
-      "email": "Ida_Buckridge84@hotmail.com",
-      "password": "1gkXCwXiXPsa_oV",
-      "restaurant_id": 19,
-      "rating": 4
-    },
-    {
-      "name": "Lottie Aufderhar",
-      "email": "Pamela61@yahoo.com",
-      "password": "qzILcflgUJd5383",
-      "restaurant_id": 2,
-      "rating": 3
-    },
-    {
-      "name": "Kylie Nolan",
-      "email": "Lolita.Haag@gmail.com",
-      "password": "GY2vQ3jrOErGVdG",
-      "restaurant_id": 24,
-      "rating": 2
-    },
-    {
-      "name": "Brooke McClure",
-      "email": "Shane71@hotmail.com",
-      "password": "AsFcU_tl04v4Ey_",
-      "restaurant_id": 26,
-      "rating": 1
-    },
-    {
-      "name": "Javon Dare",
-      "email": "Lucie98@yahoo.com",
-      "password": "2oKlLLA1zo9T9Qg",
-      "restaurant_id": 28,
-      "rating": 4
-    },
-    {
-      "name": "Helena Nitzsche",
-      "email": "Sherman46@hotmail.com",
-      "password": "_EZmIpBqkuLqdIw",
-      "restaurant_id": 4,
-      "rating": 1
-    },
-    {
-      "name": "Arlo Breitenberg",
-      "email": "Emmalee23@yahoo.com",
-      "password": "b0V5gMACns1Uw3z",
-      "restaurant_id": 12,
-      "rating": 3
-    },
-    {
-      "name": "Greg Metz",
-      "email": "Rickie35@yahoo.com",
-      "password": "HoijumIlgo1nupi",
-      "restaurant_id": 13,
-      "rating": 4
-    },
-    {
-      "name": "Dayana Turcotte",
-      "email": "Eulalia_Powlowski@hotmail.com",
-      "password": "35_aC0ufBGsTSOf",
-      "restaurant_id": 30,
-      "rating": 2
-    },
-    {
-      "name": "Jo Lowe",
-      "email": "Leopold.Bode90@hotmail.com",
-      "password": "lQZM9058nRPo0tv",
-      "restaurant_id": 17,
-      "rating": 1
-    },
-    {
-      "name": "Fletcher Schmitt",
-      "email": "Angelita48@hotmail.com",
-      "password": "Ta5p5qjER9Bej_H",
-      "restaurant_id": 14,
-      "rating": 1
-    },
-    {
-      "name": "Chris Roberts",
-      "email": "Jazmyn36@hotmail.com",
-      "password": "3IBo540anOSdhW9",
-      "restaurant_id": 26,
-      "rating": 4
-    },
-    {
-      "name": "Trevion Paucek",
-      "email": "Jimmie42@gmail.com",
-      "password": "RxfLseIQn0PkzxQ",
-      "restaurant_id": 17,
-      "rating": 2
-    },
-    {
-      "name": "Amely Dibbert",
-      "email": "Fanny_Feeney76@gmail.com",
-      "password": "cXqq9nAIK1Hy8S3",
-      "restaurant_id": 11,
-      "rating": 4
-    },
-    {
-      "name": "Vladimir Hirthe",
-      "email": "Aurore_Toy53@hotmail.com",
-      "password": "IwUg0kRpQTwJ0nn",
+      "name": "Valentina Kris",
+      "email": "Nickolas58@yahoo.com",
+      "password": "_ogjasN72bfhy59",
       "restaurant_id": 16,
-      "rating": 4
+      "job_title": "Dynamic Identity Architect",
+      "time_worked": "3 years",
+      "rating": 3
     },
     {
-      "name": "Marquis Haag",
-      "email": "Adriel_Kunze@gmail.com",
-      "password": "N9OmsX5masA2XOX",
-      "restaurant_id": 18,
-      "rating": 1
-    },
-    {
-      "name": "Angelina Waters",
-      "email": "Wendell.Price@hotmail.com",
-      "password": "509DbuIhCtuy9J1",
-      "restaurant_id": 23,
-      "rating": 4
-    },
-    {
-      "name": "Buddy Mraz",
-      "email": "Daisy.Farrell19@hotmail.com",
-      "password": "0oKUeqBTZKTKPxM",
+      "name": "Eve O'Connell",
+      "email": "Chaim73@yahoo.com",
+      "password": "VBAEQ9P8uFg5g2U",
       "restaurant_id": 9,
-      "rating": 2
+      "job_title": "Customer Communications Representative",
+      "time_worked": "7 months",
+      "rating": 3
     },
     {
-      "name": "Tressa Upton",
-      "email": "Cornell_Fadel@hotmail.com",
-      "password": "dbZA9M4ajX1d4Vy",
-      "restaurant_id": 7,
-      "rating": 1
-    },
-    {
-      "name": "Steve Marks",
-      "email": "Jarrell15@hotmail.com",
-      "password": "6AW6hjUTJAY6hdi",
-      "restaurant_id": 18,
-      "rating": 2
-    },
-    {
-      "name": "Dorothy Kemmer",
-      "email": "Ivah12@hotmail.com",
-      "password": "Uh_saQLNnuHBCXM",
-      "restaurant_id": 5,
-      "rating": 4
-    },
-    {
-      "name": "Joy Schultz",
-      "email": "Rosella.Casper@yahoo.com",
-      "password": "aVdrG8isxCRzQ4O",
-      "restaurant_id": 22,
-      "rating": 1
-    },
-    {
-      "name": "Baylee Collins",
-      "email": "Walter_Wisoky@hotmail.com",
-      "password": "JapUPoSarxTQ3XT",
-      "restaurant_id": 30,
-      "rating": 5
-    },
-    {
-      "name": "Maximillia Heathcote",
-      "email": "Wendell_Mueller19@yahoo.com",
-      "password": "54iZQKQ9Ml25R5N",
-      "restaurant_id": 2,
-      "rating": 4
-    },
-    {
-      "name": "Doyle Reichert",
-      "email": "Winfield.Heidenreich@gmail.com",
-      "password": "2syZp6UrKLASWLA",
-      "restaurant_id": 2,
-      "rating": 1
-    },
-    {
-      "name": "Kaitlyn Reynolds",
-      "email": "Destini_Hagenes@gmail.com",
-      "password": "q0JN4dlyOOxvI1v",
-      "restaurant_id": 27,
-      "rating": 5
-    },
-    {
-      "name": "Kenny Homenick",
-      "email": "George.Cole@gmail.com",
-      "password": "iuxGNKUJEmkKR2y",
+      "name": "Otto Cole",
+      "email": "Lon_Conn77@hotmail.com",
+      "password": "1vRts6zAmvaEjQo",
       "restaurant_id": 8,
+      "job_title": "Internal Security Liaison",
+      "time_worked": "1 year",
       "rating": 5
     },
     {
-      "name": "Johnson Koch",
-      "email": "Eriberto94@gmail.com",
-      "password": "5NtWcVzpudJiHiZ",
-      "restaurant_id": 28,
-      "rating": 5
-    },
-    {
-      "name": "Mollie Mills",
-      "email": "Twila58@gmail.com",
-      "password": "JJ_wpZd_jKVerup",
-      "restaurant_id": 18,
-      "rating": 5
-    },
-    {
-      "name": "Haylie Turcotte",
-      "email": "Elenor30@yahoo.com",
-      "password": "9QKRzoxayc0zb_H",
-      "restaurant_id": 12,
-      "rating": 1
-    },
-    {
-      "name": "Shayne Dickinson",
-      "email": "Mack_Kuvalis@gmail.com",
-      "password": "CouV8lwqKAE6eU6",
-      "restaurant_id": 4,
-      "rating": 5
-    },
-    {
-      "name": "Connie Koepp",
-      "email": "Miracle.Berge@gmail.com",
-      "password": "tY_XElMY6FjAIOd",
-      "restaurant_id": 25,
+      "name": "Johann Barrows",
+      "email": "Maye27@hotmail.com",
+      "password": "XJmiSOcWjuSqE0J",
+      "restaurant_id": 2,
+      "job_title": "Direct Integration Orchestrator",
+      "time_worked": "8 months",
       "rating": 4
     },
     {
-      "name": "Narciso Hermiston",
-      "email": "Kirk.Kuhn@yahoo.com",
-      "password": "k391vGfGPevZ4S9",
-      "restaurant_id": 27,
-      "rating": 3
+      "name": "Elvis Hane",
+      "email": "Gudrun_Considine43@yahoo.com",
+      "password": "0YsZhmQg5ehTpDD",
+      "restaurant_id": 17,
+      "job_title": "Regional Tactics Coordinator",
+      "time_worked": "2 years",
+      "rating": 2
     },
     {
-      "name": "Augustus Hudson",
-      "email": "Jordyn.Howell@yahoo.com",
-      "password": "Fivw0dwz5euE3HU",
-      "restaurant_id": 25,
-      "rating": 4
-    },
-    {
-      "name": "Ryley Jaskolski",
-      "email": "Jazmyne.Hauck1@yahoo.com",
-      "password": "mhZWjtcXiwRnd5D",
-      "restaurant_id": 13,
-      "rating": 5
-    },
-    {
-      "name": "Zelda Stehr",
-      "email": "Gerhard0@yahoo.com",
-      "password": "Vh1jbxXEu5IR9bE",
+      "name": "Alanna Jacobi",
+      "email": "Lee_Bernier56@yahoo.com",
+      "password": "4dfSlEDLktVLcas",
       "restaurant_id": 22,
-      "rating": 4
-    },
-    {
-      "name": "Bethel Wisoky",
-      "email": "Edgardo_Hickle14@yahoo.com",
-      "password": "PL7B7sOfDJwfTVS",
-      "restaurant_id": 3,
+      "job_title": "National Tactics Specialist",
+      "time_worked": "2 years",
       "rating": 2
     },
     {
-      "name": "Jamie Von",
-      "email": "Curt75@gmail.com",
-      "password": "WiosAqAyS4_bse6",
-      "restaurant_id": 23,
-      "rating": 2
-    },
-    {
-      "name": "Amelia Lowe",
-      "email": "Andrew_Weber71@hotmail.com",
-      "password": "sZ9hvxds0fRBB7u",
-      "restaurant_id": 5,
-      "rating": 3
-    },
-    {
-      "name": "Katelyn Wiza",
-      "email": "Jocelyn_Ratke@hotmail.com",
-      "password": "FsxtbvtiN3Og03k",
-      "restaurant_id": 19,
-      "rating": 4
-    },
-    {
-      "name": "Zane Erdman",
-      "email": "Lane5@yahoo.com",
-      "password": "r2a8XTjadFR2Vkt",
+      "name": "Ocie Ankunding",
+      "email": "Gwendolyn92@yahoo.com",
+      "password": "1Xvfn01NxEcoJ2W",
       "restaurant_id": 13,
-      "rating": 3
+      "job_title": "Dynamic Research Associate",
+      "time_worked": "3 years",
+      "rating": 4
     },
     {
-      "name": "Tomas Kunze",
-      "email": "Elton.Paucek73@hotmail.com",
-      "password": "FelXlnNRuYlu8c6",
-      "restaurant_id": 26,
+      "name": "Milton Romaguera",
+      "email": "Angel42@hotmail.com",
+      "password": "OQvYFyBpsy2nwtu",
+      "restaurant_id": 25,
+      "job_title": "Direct Security Specialist",
+      "time_worked": "2 years",
       "rating": 1
     },
     {
-      "name": "Charles Hagenes",
-      "email": "Giles.Goodwin@hotmail.com",
-      "password": "Z8Qjz382aJEIrjL",
-      "restaurant_id": 14,
-      "rating": 5
-    },
-    {
-      "name": "Sam Graham",
-      "email": "Armando_Fay43@gmail.com",
-      "password": "XXdTIqlNW2el2Ut",
+      "name": "Gladyce Connelly",
+      "email": "Don_Wuckert@yahoo.com",
+      "password": "K9DkNaSIJFGJte3",
       "restaurant_id": 24,
+      "job_title": "Product Tactics Designer",
+      "time_worked": "2 years",
       "rating": 2
     },
     {
-      "name": "Berenice Trantow",
-      "email": "Pauline.Hessel24@hotmail.com",
-      "password": "hMO4AZIeJ9LzmTu",
-      "restaurant_id": 13,
-      "rating": 1
-    },
-    {
-      "name": "Magali Monahan",
-      "email": "Anthony_Kautzer@hotmail.com",
-      "password": "PgmmzLDQ6j7eY6V",
-      "restaurant_id": 14,
-      "rating": 3
-    },
-    {
-      "name": "Brenden Williamson",
-      "email": "Shawna13@gmail.com",
-      "password": "0NeCbQA_EXF5IM5",
-      "restaurant_id": 22,
-      "rating": 4
-    },
-    {
-      "name": "Llewellyn Zboncak",
-      "email": "Kian76@gmail.com",
-      "password": "ctV6CVtrTNO_rJw",
-      "restaurant_id": 12,
-      "rating": 5
-    },
-    {
-      "name": "Dexter Greenfelder",
-      "email": "Meta_Beatty@gmail.com",
-      "password": "iRbx8qZgwcCULVu",
-      "restaurant_id": 15,
-      "rating": 1
-    },
-    {
-      "name": "Nicholaus Bogisich",
-      "email": "Lauryn89@gmail.com",
-      "password": "m0YDq8look7gadi",
-      "restaurant_id": 11,
+      "name": "Ryder Hamill",
+      "email": "Erling.Volkman@gmail.com",
+      "password": "2oYSOTseLMFgFAB",
+      "restaurant_id": 24,
+      "job_title": "Product Web Coordinator",
+      "time_worked": "2 years",
       "rating": 2
     },
     {
-      "name": "Roscoe Schmeler",
-      "email": "Bell.Rowe@hotmail.com",
-      "password": "RIgE0fN5BSFR5SY",
-      "restaurant_id": 11,
-      "rating": 3
-    },
-    {
-      "name": "Theo Bogisich",
-      "email": "Dane_Larkin69@hotmail.com",
-      "password": "wLYZm0Fe0K1W8Zr",
-      "restaurant_id": 8,
+      "name": "Hester Ankunding",
+      "email": "Henriette_Frami20@yahoo.com",
+      "password": "N754OMT5oUVgNMl",
+      "restaurant_id": 29,
+      "job_title": "Direct Data Liaison",
+      "time_worked": "6 months",
       "rating": 5
     },
     {
-      "name": "Enid Hagenes",
-      "email": "Elissa13@yahoo.com",
-      "password": "9xDQns0_CS_8y5E",
+      "name": "Willis Heller",
+      "email": "Ariane_Brekke@gmail.com",
+      "password": "Pr5uW7ZX3aXmSAu",
       "restaurant_id": 6,
-      "rating": 1
-    },
-    {
-      "name": "Prince MacGyver",
-      "email": "Sydney43@hotmail.com",
-      "password": "xEYxj1NgjPQZ1ZZ",
-      "restaurant_id": 29,
+      "job_title": "International Factors Technician",
+      "time_worked": "9 months",
       "rating": 4
     },
     {
-      "name": "Haley Funk",
-      "email": "Gay_Lehner@gmail.com",
-      "password": "tKl3CmlZyVGGQpS",
+      "name": "Marcella Oberbrunner",
+      "email": "Jaquelin.Bergstrom50@yahoo.com",
+      "password": "ze9nzMoyccfBULd",
+      "restaurant_id": 20,
+      "job_title": "Legacy Response Supervisor",
+      "time_worked": "5 months",
+      "rating": 3
+    },
+    {
+      "name": "Ludie Hahn",
+      "email": "Waino23@hotmail.com",
+      "password": "K3r1i_JaoWAu_6A",
+      "restaurant_id": 22,
+      "job_title": "Dynamic Data Assistant",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Joaquin Borer",
+      "email": "Jayde36@gmail.com",
+      "password": "nu6gQjdzAcH9L48",
+      "restaurant_id": 21,
+      "job_title": "Human Web Officer",
+      "time_worked": "2 years",
+      "rating": 1
+    },
+    {
+      "name": "Monserrate Denesik",
+      "email": "Jamar.Abshire@gmail.com",
+      "password": "yMF_t8ekwR7cXjb",
       "restaurant_id": 23,
+      "job_title": "Senior Assurance Manager",
+      "time_worked": "2 months",
       "rating": 1
     },
     {
-      "name": "Damion Botsford",
-      "email": "Dagmar_OConnell@yahoo.com",
-      "password": "j7Mk8siIEPBDYRN",
-      "restaurant_id": 18,
-      "rating": 4
-    },
-    {
-      "name": "Jana Glover",
-      "email": "Jamey82@yahoo.com",
-      "password": "MqbUf_GvkmAcEQx",
-      "restaurant_id": 29,
+      "name": "Rosina Hansen",
+      "email": "Ceasar65@hotmail.com",
+      "password": "hJFsZqU49_4lGr7",
+      "restaurant_id": 13,
+      "job_title": "Global Security Planner",
+      "time_worked": "2 years",
       "rating": 5
     },
     {
-      "name": "Brandt Krajcik",
-      "email": "Raymundo36@yahoo.com",
-      "password": "vCFZrKgF5AIrBvz",
-      "restaurant_id": 18,
+      "name": "Asia Jacobson",
+      "email": "Alexandro18@gmail.com",
+      "password": "nHpxNy6Y4yZ7Ttj",
+      "restaurant_id": 27,
+      "job_title": "District Intranet Assistant",
+      "time_worked": "12 months",
+      "rating": 2
+    },
+    {
+      "name": "Gust Halvorson",
+      "email": "Ralph.Purdy@gmail.com",
+      "password": "UJngbtbZAvXFBKy",
+      "restaurant_id": 26,
+      "job_title": "Customer Paradigm Engineer",
+      "time_worked": "4 months",
       "rating": 4
+    },
+    {
+      "name": "Federico Huel",
+      "email": "Dayton53@yahoo.com",
+      "password": "o81WfZFtk97nfJt",
+      "restaurant_id": 9,
+      "job_title": "Corporate Data Designer",
+      "time_worked": "0 month",
+      "rating": 1
+    },
+    {
+      "name": "Dallin Gleason",
+      "email": "Bridie_Muller@yahoo.com",
+      "password": "AXMXyEaSs8GzRxD",
+      "restaurant_id": 15,
+      "job_title": "Forward Operations Administrator",
+      "time_worked": "6 months",
+      "rating": 1
+    },
+    {
+      "name": "Nolan Tromp",
+      "email": "Sarah.Hane33@yahoo.com",
+      "password": "2yNE3q9KsKVGq4V",
+      "restaurant_id": 5,
+      "job_title": "Internal Brand Producer",
+      "time_worked": "2 years",
+      "rating": 3
+    },
+    {
+      "name": "Trent Macejkovic",
+      "email": "Guy.Langworth@gmail.com",
+      "password": "gY1oP0y24y3VGX_",
+      "restaurant_id": 5,
+      "job_title": "Lead Mobility Executive",
+      "time_worked": "2 years",
+      "rating": 2
+    },
+    {
+      "name": "Jean Lebsack",
+      "email": "Nestor.Crona@yahoo.com",
+      "password": "QxF028160Syi6M9",
+      "restaurant_id": 5,
+      "job_title": "Global Brand Liaison",
+      "time_worked": "1 year",
+      "rating": 1
+    },
+    {
+      "name": "Malcolm Jaskolski",
+      "email": "Elfrieda_Hermiston@gmail.com",
+      "password": "DVJrY9HDX9bDOTd",
+      "restaurant_id": 2,
+      "job_title": "Dynamic Brand Liaison",
+      "time_worked": "1 year",
+      "rating": 4
+    },
+    {
+      "name": "Janie Von",
+      "email": "Elmira.Pouros2@hotmail.com",
+      "password": "uAsMTYE57fE6Lwo",
+      "restaurant_id": 28,
+      "job_title": "Legacy Paradigm Planner",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Eve Corkery",
+      "email": "Ayden_Osinski16@gmail.com",
+      "password": "WOiy9UYysrRReCz",
+      "restaurant_id": 30,
+      "job_title": "District Tactics Facilitator",
+      "time_worked": "2 years",
+      "rating": 5
+    },
+    {
+      "name": "Ronny Kshlerin",
+      "email": "Aleen.Champlin@gmail.com",
+      "password": "3LJ5tA15f6sIGhj",
+      "restaurant_id": 15,
+      "job_title": "Senior Integration Officer",
+      "time_worked": "2 years",
+      "rating": 5
+    },
+    {
+      "name": "Elmer Corwin",
+      "email": "Carson.Moore25@gmail.com",
+      "password": "y2zjs_5FldeCTrR",
+      "restaurant_id": 12,
+      "job_title": "Principal Assurance Officer",
+      "time_worked": "2 years",
+      "rating": 2
+    },
+    {
+      "name": "Julio Gislason",
+      "email": "Justine.Wilderman@yahoo.com",
+      "password": "pFPpZ745quDuBol",
+      "restaurant_id": 11,
+      "job_title": "Forward Metrics Executive",
+      "time_worked": "2 years",
+      "rating": 5
+    },
+    {
+      "name": "Delia Terry",
+      "email": "Brook_Swift@gmail.com",
+      "password": "c4M9h_c9ilv3Y2G",
+      "restaurant_id": 8,
+      "job_title": "Product Implementation Administrator",
+      "time_worked": "1 year",
+      "rating": 1
+    },
+    {
+      "name": "Jeffrey Klocko",
+      "email": "Gabriella.Bauch@yahoo.com",
+      "password": "JA7alzZGiWVtY8c",
+      "restaurant_id": 14,
+      "job_title": "Legacy Configuration Planner",
+      "time_worked": "1 year",
+      "rating": 5
+    },
+    {
+      "name": "Ashleigh Daniel",
+      "email": "Elyse44@yahoo.com",
+      "password": "aQJAQ98XMN2GBYm",
+      "restaurant_id": 1,
+      "job_title": "Forward Intranet Technician",
+      "time_worked": "2 years",
+      "rating": 5
+    },
+    {
+      "name": "Eliezer Jones",
+      "email": "Lambert17@gmail.com",
+      "password": "WSniniXNPNLX3rn",
+      "restaurant_id": 21,
+      "job_title": "District Communications Administrator",
+      "time_worked": "1 year",
+      "rating": 1
+    },
+    {
+      "name": "Marlin Davis",
+      "email": "Zella_Leffler20@yahoo.com",
+      "password": "F8IU6fO88uXUC05",
+      "restaurant_id": 9,
+      "job_title": "National Operations Consultant",
+      "time_worked": "2 years",
+      "rating": 2
+    },
+    {
+      "name": "Olin Howell",
+      "email": "Casey86@yahoo.com",
+      "password": "gzlDBxe2gc_AWEL",
+      "restaurant_id": 10,
+      "job_title": "Dynamic Web Administrator",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Bradly Walsh",
+      "email": "Adell.Harvey@yahoo.com",
+      "password": "xDraH7aqvCeJLa5",
+      "restaurant_id": 26,
+      "job_title": "Principal Metrics Consultant",
+      "time_worked": "0 month",
+      "rating": 1
+    },
+    {
+      "name": "Phoebe Franecki",
+      "email": "Godfrey29@yahoo.com",
+      "password": "LByqp5HaxSCRg3G",
+      "restaurant_id": 1,
+      "job_title": "Dynamic Directives Supervisor",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Wade Wuckert",
+      "email": "Josue.Jenkins85@gmail.com",
+      "password": "1X4EpoH9r9nPGh8",
+      "restaurant_id": 16,
+      "job_title": "Customer Data Facilitator",
+      "time_worked": "12 months",
+      "rating": 2
+    },
+    {
+      "name": "Karen Paucek",
+      "email": "Orie_Parisian@gmail.com",
+      "password": "7qLzydNFamfDaJ6",
+      "restaurant_id": 22,
+      "job_title": "Direct Interactions Analyst",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Zakary Emard",
+      "email": "Zion_Hahn40@yahoo.com",
+      "password": "CftT80ReBkmwu0J",
+      "restaurant_id": 1,
+      "job_title": "Dynamic Quality Supervisor",
+      "time_worked": "1 year",
+      "rating": 2
+    },
+    {
+      "name": "Yasmine Bosco",
+      "email": "Verla96@yahoo.com",
+      "password": "fadw12Ctm9qFJde",
+      "restaurant_id": 10,
+      "job_title": "Regional Group Consultant",
+      "time_worked": "2 years",
+      "rating": 5
+    },
+    {
+      "name": "Harley Dooley",
+      "email": "Adrien74@yahoo.com",
+      "password": "iMZXAfKMZrwBGTM",
+      "restaurant_id": 19,
+      "job_title": "Investor Division Director",
+      "time_worked": "2 years",
+      "rating": 1
+    },
+    {
+      "name": "Quincy Marks",
+      "email": "Freddy76@yahoo.com",
+      "password": "S1RTHJUqpZKfPgP",
+      "restaurant_id": 16,
+      "job_title": "Global Implementation Facilitator",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Adan Yundt",
+      "email": "Kaela_Spencer97@hotmail.com",
+      "password": "KH6RxoDL8eRdetI",
+      "restaurant_id": 2,
+      "job_title": "National Division Executive",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Katlyn Cole",
+      "email": "Thurman_Ruecker@hotmail.com",
+      "password": "QvH3ctSDY6onS9V",
+      "restaurant_id": 11,
+      "job_title": "Future Configuration Associate",
+      "time_worked": "11 months",
+      "rating": 1
+    },
+    {
+      "name": "Morris Jacobi",
+      "email": "Elijah35@gmail.com",
+      "password": "406GWBlffscQRpi",
+      "restaurant_id": 5,
+      "job_title": "Customer Response Planner",
+      "time_worked": "4 months",
+      "rating": 4
+    },
+    {
+      "name": "Yasmine Rogahn",
+      "email": "Rigoberto62@yahoo.com",
+      "password": "B3DkOvYuh5ycG3Y",
+      "restaurant_id": 12,
+      "job_title": "Senior Branding Agent",
+      "time_worked": "8 months",
+      "rating": 3
+    },
+    {
+      "name": "Carlie Schmeler",
+      "email": "Arielle_Runolfsdottir58@yahoo.com",
+      "password": "gkqARq3LbR5klUb",
+      "restaurant_id": 22,
+      "job_title": "Regional Program Director",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Abbigail Hayes",
+      "email": "Kennedi.Connelly@gmail.com",
+      "password": "W0gYehzfK61MMBG",
+      "restaurant_id": 14,
+      "job_title": "Dynamic Integration Administrator",
+      "time_worked": "12 months",
+      "rating": 5
+    },
+    {
+      "name": "Felton Ullrich",
+      "email": "Cortez_Watsica@gmail.com",
+      "password": "XSbbhkbBvHkpbQB",
+      "restaurant_id": 8,
+      "job_title": "Dynamic Mobility Consultant",
+      "time_worked": "1 year",
+      "rating": 4
+    },
+    {
+      "name": "Beth Zulauf",
+      "email": "Tobin29@yahoo.com",
+      "password": "n8l9x6m8Ug8E7j9",
+      "restaurant_id": 24,
+      "job_title": "Dynamic Factors Architect",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Laura Kris",
+      "email": "Trinity.Green@yahoo.com",
+      "password": "TCVo_EmrMzEKIKi",
+      "restaurant_id": 8,
+      "job_title": "Future Program Architect",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Ezra Bernier",
+      "email": "Vicente_Bahringer@gmail.com",
+      "password": "T9lMbDAaacaCXTk",
+      "restaurant_id": 19,
+      "job_title": "Lead Division Orchestrator",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Elise Carter",
+      "email": "Werner.Morar@yahoo.com",
+      "password": "HBU0GRdq5Q7Xe2f",
+      "restaurant_id": 10,
+      "job_title": "National Communications Officer",
+      "time_worked": "9 months",
+      "rating": 1
+    },
+    {
+      "name": "Eldred Will",
+      "email": "Reymundo_Johnson@hotmail.com",
+      "password": "pg7YWeQI_iGbhXa",
+      "restaurant_id": 2,
+      "job_title": "Principal Security Representative",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Kaelyn Mante",
+      "email": "Elias_Wuckert76@gmail.com",
+      "password": "unXmZT8Tmh5UGo1",
+      "restaurant_id": 16,
+      "job_title": "Lead Intranet Associate",
+      "time_worked": "1 year",
+      "rating": 4
+    },
+    {
+      "name": "Lew Bauch",
+      "email": "Novella48@gmail.com",
+      "password": "jt7bxOYJI7LVuOJ",
+      "restaurant_id": 1,
+      "job_title": "Legacy Markets Liaison",
+      "time_worked": "4 months",
+      "rating": 4
+    },
+    {
+      "name": "Easton Mosciski",
+      "email": "Columbus46@yahoo.com",
+      "password": "vhUNQWZ9g4Q73C2",
+      "restaurant_id": 11,
+      "job_title": "Regional Configuration Consultant",
+      "time_worked": "1 year",
+      "rating": 2
+    },
+    {
+      "name": "Luz Kuvalis",
+      "email": "Fay66@hotmail.com",
+      "password": "dlAJi2OVR4ds2WC",
+      "restaurant_id": 6,
+      "job_title": "Dynamic Data Specialist",
+      "time_worked": "1 year",
+      "rating": 2
+    },
+    {
+      "name": "Maggie Stoltenberg",
+      "email": "Steve14@gmail.com",
+      "password": "0TawwihG6l2o3Wb",
+      "restaurant_id": 2,
+      "job_title": "National Functionality Specialist",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Cleta Beier",
+      "email": "Eulah95@gmail.com",
+      "password": "gzebf6SrcrVxiSK",
+      "restaurant_id": 11,
+      "job_title": "Internal Metrics Administrator",
+      "time_worked": "3 years",
+      "rating": 1
+    },
+    {
+      "name": "Misael Rosenbaum",
+      "email": "Gonzalo.Goldner@gmail.com",
+      "password": "37jHCLDEB72iU1g",
+      "restaurant_id": 3,
+      "job_title": "Future Implementation Technician",
+      "time_worked": "1 year",
+      "rating": 2
+    },
+    {
+      "name": "Bart Jacobson",
+      "email": "Johnson.Hermiston@yahoo.com",
+      "password": "6JYG2uPeNkG75QZ",
+      "restaurant_id": 3,
+      "job_title": "District Infrastructure Facilitator",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Bradford Smitham",
+      "email": "Odie.Rolfson9@hotmail.com",
+      "password": "8EYvPFShu1FG0zd",
+      "restaurant_id": 23,
+      "job_title": "Forward Tactics Coordinator",
+      "time_worked": "1 year",
+      "rating": 1
+    },
+    {
+      "name": "Muhammad Rogahn",
+      "email": "Ona58@gmail.com",
+      "password": "xcADHM2BtgD2_T9",
+      "restaurant_id": 13,
+      "job_title": "Customer Factors Strategist",
+      "time_worked": "6 months",
+      "rating": 3
+    },
+    {
+      "name": "Claudine Graham",
+      "email": "Waylon21@gmail.com",
+      "password": "vVoc2HYG6MGijy0",
+      "restaurant_id": 7,
+      "job_title": "Dynamic Functionality Facilitator",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Ardith Lesch",
+      "email": "Sophia.Greenfelder13@gmail.com",
+      "password": "tx7hBnQPOe0ZkPE",
+      "restaurant_id": 27,
+      "job_title": "Regional Optimization Associate",
+      "time_worked": "1 year",
+      "rating": 2
+    },
+    {
+      "name": "Devon Goldner",
+      "email": "Ozella.Ebert4@yahoo.com",
+      "password": "oyWFrGpLgdxvwfo",
+      "restaurant_id": 29,
+      "job_title": "Future Implementation Orchestrator",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Eugenia Kassulke",
+      "email": "Jerrell51@gmail.com",
+      "password": "aEYn03wE_wBczQ3",
+      "restaurant_id": 14,
+      "job_title": "Forward Interactions Strategist",
+      "time_worked": "2 years",
+      "rating": 2
+    },
+    {
+      "name": "Jefferey Kemmer",
+      "email": "Lila_Hodkiewicz@gmail.com",
+      "password": "YH5sU9smRgkoFkF",
+      "restaurant_id": 13,
+      "job_title": "Dynamic Division Coordinator",
+      "time_worked": "8 months",
+      "rating": 5
+    },
+    {
+      "name": "Watson Jones",
+      "email": "Jorge68@yahoo.com",
+      "password": "nIIwoJATJvdHWyL",
+      "restaurant_id": 15,
+      "job_title": "Regional Creative Agent",
+      "time_worked": "1 year",
+      "rating": 5
+    },
+    {
+      "name": "Dominic Thompson",
+      "email": "Freddie46@yahoo.com",
+      "password": "Dwy1p3tfm5HNWPf",
+      "restaurant_id": 24,
+      "job_title": "Chief Directives Coordinator",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Neal Ernser",
+      "email": "Nick.Ryan@hotmail.com",
+      "password": "s9XjmRyYuklOha2",
+      "restaurant_id": 19,
+      "job_title": "Customer Security Administrator",
+      "time_worked": "1 year",
+      "rating": 4
+    },
+    {
+      "name": "Quentin Brakus",
+      "email": "Augusta.Kshlerin43@gmail.com",
+      "password": "6RFHQkZGXnamwpf",
+      "restaurant_id": 21,
+      "job_title": "Future Assurance Technician",
+      "time_worked": "1 year",
+      "rating": 5
+    },
+    {
+      "name": "Elliott Champlin",
+      "email": "Joshuah43@gmail.com",
+      "password": "k9GoUV6mK9hbJYw",
+      "restaurant_id": 28,
+      "job_title": "Chief Integration Facilitator",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Sierra Zieme",
+      "email": "Vergie.Cronin@hotmail.com",
+      "password": "QoFCSeVgEUxXRXw",
+      "restaurant_id": 5,
+      "job_title": "Forward Assurance Producer",
+      "time_worked": "1 year",
+      "rating": 3
+    },
+    {
+      "name": "Davion Spencer",
+      "email": "Danial70@yahoo.com",
+      "password": "KLyuW1HsR_9xdHS",
+      "restaurant_id": 6,
+      "job_title": "National Infrastructure Officer",
+      "time_worked": "1 year",
+      "rating": 2
+    },
+    {
+      "name": "Rosalinda Walsh",
+      "email": "Carissa_Kuvalis77@yahoo.com",
+      "password": "fyM9VfDHTGAa65m",
+      "restaurant_id": 20,
+      "job_title": "Forward Marketing Strategist",
+      "time_worked": "2 years",
+      "rating": 3
+    },
+    {
+      "name": "Jett Schaefer",
+      "email": "Ida61@gmail.com",
+      "password": "_K011Atl4Pxfsdg",
+      "restaurant_id": 11,
+      "job_title": "Human Markets Strategist",
+      "time_worked": "5 months",
+      "rating": 5
+    },
+    {
+      "name": "Joanne Block",
+      "email": "Phyllis.Jones79@gmail.com",
+      "password": "yYGUCHTTRgoxVWZ",
+      "restaurant_id": 22,
+      "job_title": "National Solutions Director",
+      "time_worked": "1 month",
+      "rating": 1
+    },
+    {
+      "name": "Laura Homenick",
+      "email": "Lucie26@hotmail.com",
+      "password": "PCJMMyqkfHvCBUx",
+      "restaurant_id": 9,
+      "job_title": "National Applications Director",
+      "time_worked": "1 year",
+      "rating": 5
+    },
+    {
+      "name": "Evert Crist",
+      "email": "Carroll.Nolan@gmail.com",
+      "password": "5RwE9Rkbls90KTu",
+      "restaurant_id": 27,
+      "job_title": "Corporate Marketing Coordinator",
+      "time_worked": "6 months",
+      "rating": 5
+    },
+    {
+      "name": "Andrew Ruecker",
+      "email": "Kristian.Huels@hotmail.com",
+      "password": "uKrYCbMbYvZqlye",
+      "restaurant_id": 1,
+      "job_title": "Customer Tactics Administrator",
+      "time_worked": "1 year",
+      "rating": 2
+    },
+    {
+      "name": "Deshawn Jerde",
+      "email": "Hillard.Waters72@gmail.com",
+      "password": "fGdXXZJr9cyGKCC",
+      "restaurant_id": 23,
+      "job_title": "Future Quality Liaison",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Maurice Satterfield",
+      "email": "Jamey_Lueilwitz88@yahoo.com",
+      "password": "oBtQtV9GuPnDgFr",
+      "restaurant_id": 9,
+      "job_title": "Chief Tactics Representative",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Ollie Ward",
+      "email": "Cali.Ortiz11@hotmail.com",
+      "password": "ACiFt_5VGeYuIls",
+      "restaurant_id": 20,
+      "job_title": "Human Functionality Manager",
+      "time_worked": "2 years",
+      "rating": 3
+    },
+    {
+      "name": "Damaris Wolf",
+      "email": "Marlen.Collier@yahoo.com",
+      "password": "wdiRYSgcw2NoGvE",
+      "restaurant_id": 1,
+      "job_title": "International Program Technician",
+      "time_worked": "2 years",
+      "rating": 4
+    },
+    {
+      "name": "Ed Cormier",
+      "email": "Gilberto23@hotmail.com",
+      "password": "dOWDZqZb1PNiNqa",
+      "restaurant_id": 24,
+      "job_title": "Dynamic Assurance Coordinator",
+      "time_worked": "1 year",
+      "rating": 3
     }
   ]
 }
