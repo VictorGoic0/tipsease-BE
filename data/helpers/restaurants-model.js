@@ -17,7 +17,7 @@ async function findById(id) {
   let restaurant = db("restaurants")
     .where({ id })
     .first();
-  let serverList = db("reviews")
+  let serverList = db("servers")
     .select({
       id: "servers.id",
       name: "reviews.review",
