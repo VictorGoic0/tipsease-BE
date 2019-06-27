@@ -18,6 +18,22 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+router.get("/:id/transactions", async (req, res) => {
+  const { id } = req.params;
+  try {
+    const transactions = await db.findTransactions(id);
+    if (transactions) {
+      res.status(200).json(transactions);
+    } else {
+      res
+        .status(404)
+        .json({ message: "Server with specified ID does not exist." });
+    }
+  } catch (error) {
+    res.status(500).json({ message: `Server request failed ${error}.` });
+  }
+});
+
 router.post("/", async (req, res) => {
   const { name, email, pasword, restaurant_id } = req.body;
   if (!name || !email || !pasword || !restaurant_id) {

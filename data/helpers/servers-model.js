@@ -4,6 +4,7 @@ module.exports = {
   find,
   findById,
   findByRest,
+  findTransactions,
   create,
   remove,
   update
@@ -37,10 +38,17 @@ async function findById(id) {
 }
 
 async function findByRest(id) {
-  const servers = db("servers")
+  const servers = await db("servers")
     .where({ "servers.restaurant_id": id })
     .first();
   return servers;
+}
+
+async function findTransactions(id) {
+  const transactions = await db("transactions").where({
+    "transactions.server_id": id
+  });
+  return transactions;
 }
 
 async function create(item) {
