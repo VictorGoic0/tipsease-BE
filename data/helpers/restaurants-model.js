@@ -26,7 +26,7 @@ async function findById(id) {
     })
     .where({ "servers.restaurant_id": id });
   const retrieval = await Promise.all([restaurant, serverList]);
-  if (retrieval[0][0]) {
+  if (retrieval[0]) {
     /* This is only true if both the promise resolved AND the post exists. Checking for just the promise causes
     nonexistent posts to return an empty object and array due to my return statement returning an object by default */
     let [content] = retrieval[0];
