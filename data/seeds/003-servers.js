@@ -22,5 +22,5 @@ exports.seed = function(knex, Promise) {
     JSON.stringify({ servers: fakeServers })
   ); //used this to create fake servers array
 
-  return knex("servers").insert([{}]);
+  return knex("servers").insert(fakeServers);
 };
