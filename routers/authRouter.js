@@ -5,8 +5,8 @@ const db = require("../data/helpers/users-model.js");
 const secret = process.env.SECRET || "It's a secret";
 
 router.post("/register", async (req, res) => {
-  let { username, password, firstName, lastName } = req.body;
-  if (!username || !password || !firstName || !lastName) {
+  let { username, password, name } = req.body;
+  if (!username || !password || !name) {
     res.status(401).json({ message: "Please enter valid credentials." });
   } else {
     password = bcrypt.hashSync(password, 8);
@@ -14,8 +14,7 @@ router.post("/register", async (req, res) => {
       const newUser = await db.create({
         username,
         password,
-        first_name: firstName,
-        last_name: lastName
+        name
       });
       if (newUser) {
         const token = generateToken(newUser.id, username);
