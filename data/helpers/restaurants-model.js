@@ -14,7 +14,7 @@ async function find() {
 }
 
 async function findById(id) {
-  let restaurant = db("restauraunts")
+  let restaurant = db("restaurants")
     .where({ id })
     .first();
   let serverList = db("reviews")
