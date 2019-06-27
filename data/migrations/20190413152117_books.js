@@ -2,6 +2,7 @@ exports.up = function(knex, Promise) {
   return knex.schema
     .createTable("users", table => {
       table.increments();
+      table.timestamps(true, true);
       table.string("name", 40).notNullable();
       table
         .string("email", 30)
@@ -14,6 +15,7 @@ exports.up = function(knex, Promise) {
     })
     .createTable("restaurants", table => {
       table.increments();
+      table.timestamps(true, true);
       table.string("name", 40).notNullable();
       table.string("location", 40).notNullable();
       table.string("description", 600);
@@ -21,6 +23,7 @@ exports.up = function(knex, Promise) {
     })
     .createTable("servers", table => {
       table.increments();
+      table.timestamps(true, true);
       table.string("name", 40).notNullable();
       table
         .string("email", 30)
@@ -40,6 +43,7 @@ exports.up = function(knex, Promise) {
     })
     .createTable("transactions", table => {
       table.increments();
+      table.timestamps(true, true);
       table
         .integer("tipper_id")
         .unsigned()
@@ -54,7 +58,6 @@ exports.up = function(knex, Promise) {
         .notNullable()
         .onDelete("CASCADE")
         .onUpdate("CASCADE");
-      table.string("timestamp", Date.now()).notNullable();
       table.integer("rating").notNullable();
       table
         .float("tip_paid")
