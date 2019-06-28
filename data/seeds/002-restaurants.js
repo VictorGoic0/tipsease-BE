@@ -6,7 +6,7 @@ const fakeRestaurants = require("../dummyData/fakeRestauraunts")["restaurants"];
 //   location: "New York, New York",
 //   name: faker.company.companyName(),
 //   description: faker.lorem.paragraph(),
-//   image_url: faker.image.imageUrl(),
+//   image_url: faker.image.business(),
 //   rating: Math.ceil(Math.random() * 5)
 // }); //used this to create fake restaurants file in dummyData
 

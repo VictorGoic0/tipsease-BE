@@ -24,6 +24,7 @@ const fakeServers = require("../dummyData/fakeServers")["servers"];
 //   name: `${faker.name.firstName()} ${faker.name.lastName()}`,
 //   email: faker.internet.email(),
 //   password: faker.internet.password(),
+//   thumbnail_url: faker.image.people(),
 //   restaurant_id: Math.ceil(Math.random() * 30),
 //   job_title: faker.name.jobTitle(),
 //   time_worked: generateTime(),
