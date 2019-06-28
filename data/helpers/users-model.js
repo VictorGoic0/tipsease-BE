@@ -21,11 +21,12 @@ async function findById(id) {
   let transactionList = db("transactions")
     .select({
       id: "transactions.id",
-      tipper_id: "transactions.tipper_id",
       server_id: "transactions.server_id",
+      server_name: "servers.name",
       tip_paid: "transactions.tip_paid",
       created_at: "transactions.created_at"
     })
+    .innerJoin("servers", "transactions.server_id", "servers.id")
     .where({ "transactions.tipper_id": id });
   const retrieval = await Promise.all([user, transactionList]);
   if (retrieval[0]) {
