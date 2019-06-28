@@ -16,7 +16,7 @@ async function find() {
 
 async function findById(id) {
   let user = db("users")
-    .where({ email })
+    .where({ id })
     .first();
   let transactionList = db("transactions")
     .select({
